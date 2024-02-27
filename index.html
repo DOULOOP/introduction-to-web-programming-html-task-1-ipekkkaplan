@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>My First Website</title>
+<meta charset="UTF-8"/>
+<meta name="keywords" content="HTML" />
+<meta name="description" content="My First Website"/>
+<meta name="author" content="Ipek Kaplan" />
+<!---meta etiketleri ayfanın tarayıcılarda ve arama sonuçlarında nasıl görüneceğini 
+    belirlemede ve arama motorlarının sayfayı anlamasında ve daha karışıklık gidermesinde etkilidir.-->
+</head>
+
+<body style="background-color: aquamarine;">
+<h1>Hos Geldiniz!</h1>
+<nav>
+    <ul>
+     <li> <a href="anasayfa.html" target="_blank">Anasayfa Dokumani</a><br></li>
+      <li> <a href="hakkımızda.html" target="_blank">Hakkimizda Dokumani</a><br></li>
+       <li>   <a href="iletisim.html"target=_blank>Iletisim Dokumani</a><br></li>
+    </ul>
+    </nav>
+    <!--nav etiketi navigasyon ifadesinin kıaltmasıdır.
+    Kulanıcının sayfa içerisinde web adresleri arasında geçiş yapmasını sağlar.-->
+
+    <h1>Favori Yemeklerim</h1>
+    <ol>
+        <li>Köfte</li>
+        <li>Pizza</li>
+        <li>Salata</li>
+    </ol>
+    <!--burada ordered(sıralı)liste kullanılmıştır.-->
+
+    <h1>Resim Ekleme</h1>
+<img src="./vsco_102422(7).jpg"
+height="200"
+alt="Kirmizi Baliklar"/>
+
+<h1>Iletisim Formu</h1>
+<form action="submit" method="post">
+    <!--action ve method özellikleri formun hangi URL'ye gönderileceğini belirler.-->
+    <label for="name">Name </label><br>
+    <input type="text" id="name" name="name"/><br>
+    <label for="e posta">E posta</label><br>
+    <input type="email" id="email" name="email"/><br>
+    <label for="mesaj">Mesaj</label><br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mesajiniz"></textarea><br>
+    <button type="Gönder">Gönder</button>
+</form>
+
+</body>
+
+</html>
+
+<!--semantik etiketler içeriğin daha anlamlı hale gelmesini sağlar bu yapılandırmada da ;
+    head,title,meta,img,body,nav,ul,li,ol,h1,h2,h3,form,label,input,textarea,button için söylenebilir.
+-->
+ 
